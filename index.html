@@ -1,19 +1,83 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>AI Tools Vault</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Tools Vault</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: #4b6cb7;
+      background: linear-gradient(to right, #182848, #4b6cb7);
+      padding: 2rem 1rem;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.2rem;
+    }
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .tool {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      width: 280px;
+      text-align: center;
+      transition: transform 0.2s ease-in-out;
+    }
+    .tool:hover {
+      transform: translateY(-5px);
+    }
+    .tool a {
+      text-decoration: none;
+      color: #4b6cb7;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #eee;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
+  <header>
     <h1>Welcome to AI Tools Vault</h1>
-    <p>This is your monetized AI directory site.</p>
-    <ul>
-        <li><a href="https://affiliate.example.com/tool1">AI Copywriter</a></li>
-        <li><a href="https://affiliate.example.com/tool2">Image Generator</a></li>
-        <li><a href="https://affiliate.example.com/tool3">Voice Cloner</a></li>
-    </ul>
-    <footer>
-        <p>&copy; 2025 AI Tools Vault. Curated by Abhigyan.</p>
-    </footer>
+    <p>Your monetized AI directory site</p>
+  </header>
+  <main>
+    <div class="tool">
+      <a href="https://tinyurl.com/ai-copywriter-aff" target="_blank">✍️ AI Copywriter</a>
+    </div>
+    <div class="tool">
+      <a href="https://tinyurl.com/image-gen-aff" target="_blank">🖼️ Image Generator</a>
+    </div>
+    <div class="tool">
+      <a href="https://tinyurl.com/voice-clone-aff" target="_blank">🎙️ Voice Cloner</a>
+    </div>
+  </main>
+  <footer>
+    © 2025 AI Tools Vault. Curated by Abhigyan.
+  </footer>
 </body>
 </html>
