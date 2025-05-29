@@ -1,1 +1,1 @@
-console.log('Site loaded with GoatCounter analytics');
+// search handled inline in index.html
